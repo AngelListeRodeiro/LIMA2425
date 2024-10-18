@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+</head>
+    <body>
+        <h1>Tetris</h1>
+        <!--Imagen Top pagina-->
+        <img src="Img/Tetris_logo.png" height="60">
+        <!--Banda Sonora Tetris-->
+        <audio controls>
+            <source src="Audio/TetrisSoundtrack.mp3" >
+        </audio>
+        <hr/>
+        <!-- Indice -->
+        <ul>
+            <li>
+               <a href="#Title1">¿Qué es?</a> 
+            </li>
+            <li>
+                <a href="Title2">Historia</a>
+            </li>
+            <li>
+                <a href="Title3">Funcionamiento del juego</a>
+            </li>
+            <li>
+                <a href="Title4">Versiones</a>
+            </li>
+        </ul>
+        <br/>
+        <h2 id="Title1">¿Qué es?</h2>
+            <p>Es un videojuego de lógica soviético originalmente diseñado y programado por Alekséi Pázhitnov.
+                Su nombre deriva del prefijo numérico griego tetra- (cuatro), ya que todas las piezas del juego, conocidas como tetrominós, contienen cuatro segmentos, y del tenis, el deporte favorito de Pázhitnov.
+                El juego (o una de sus muchas variantes) está disponible para casi todas las consolas de videojuegos y sistemas operativos de PC, así como en dispositivos tales como las calculadoras gráficas, teléfonos móviles, reproductores de multimedia portátiles.
+
+            
+            
+            </p>
+        <h2 id="Title2">Historia</h2>
+            <!--Imagen Aleksei Pazhitnov-->
+            <figure>
+                <img src="Img/Alexey_Pajitnov.jpg" height="150">  
+                <figcaption><em>Imagen de Alekséi Pázhitnov (2008)</em></figcaption> 
+            </figure>
+            <p>Alekséi Pázhitnov se había inspirado en un juego de pentaminós que había comprado anteriormente. El nombre «tetris» deriva del étimo griego «tetra», que significa «cuatro», y hace referencia a la cantidad de cuadros que componen las piezas. Alekséi Pázhitnov programó una versión de su juego en un Electrónika 60.
+                Tetris comenzó a ganar popularidad cuando Vadim Gerasimov, un joven de 16 años que trabajaba en la Academia, portó el juego a IBM PC.
+                Estas versiones llamaron la atención de Robert Stein, que intentaba adquirir los derechos del juego. Antes de conseguir estos derechos, vendió el concepto robado a la empresa inglesa Mirrorsoft y a su filial estadounidense, Spectrum Holobyte, que editaron una versión para Atari ST y Sinclair ZX Spectrum. Tetris se comercializaba en Europa y en Estados Unidos en 1987 con la mención
+                <pre>«Fabricado en Estados Unidos, creado en el extranjero»</pre>
+                Tetris ha sido históricamente uno de los videojuegos más versionados y es, junto a las Torres de Hanói, el predilecto de los programadores noveles de juegos. Atari y Nintendo lucharon por robarse la idea y licenciarla; lo logró finalmente este último
+            </p>
+            <p>
+                En el siglo XXI sigue siendo un juego popular entre una comunidad y se han superado varios récords.
+                En principios de 2024 Willis Gibson, un adolescente de 13 años de Stillwater, Oklahoma , logró un hito nunca antes visto en la historia de los videojuegos: llegar al final del Tetris, algo que hasta ese momento solo se creía posible mediante inteligencia artificial. 
+                Un logro documentado en un vídeo de YouTube, en el que se puede ver cómo mientras Gibson jugaba la versión original de Tetris en Nintendo, avanzó hasta tal punto que el juego se congeló, mostrando una puntuación de 999999.
+            <!--Video Final Tetris-->
+            
+            </p>
+        <h2 id="Title3">Funcionamiento del juego</h2>
+            <p>
+                Se basa en figuras geométricas compuestas por cuatro bloques cuadrados unidos de forma ortogonal las cuales se generan de una zona que ocupa 5x5 bloques en el área superior de la pantalla. No hay consenso en cuanto a las dimensiones para el área del juego, que varía en cada versión.Sin embargo, dos filas de más arriba están ocultas al jugador.
+                El jugador no puede impedir esta caída, pero puede decidir la rotación de la pieza (0°, 90°, 180°, 270°) y en qué lugar debe caer. Cuando una línea horizontal se completa, esa línea desaparece, todas las piezas que están por encima descienden una posición y liberan espacio de juego.
+                La caída de las piezas se acelera progresivamente. El juego acaba cuando las piezas se amontonan hasta llegar a lo más alto (3x5 bloques en el área visible), interfiriendo la caída de más piezas.
+            </p>
+            <h3>Piezas</h3>
+            <!--Tabla Piezas-->
+            <table border="">
+                <th>Pieza</th>
+                <th>Simbolo</th>
+                <th>Tetris Original</th>
+                <th>Microsoft Tetris</th>
+                <th>Tetris DS</th>
+
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-I.png" height="20"/></td>
+                    <td>I</td>
+                    <td>Rojo</td>
+                    <td>Rojo</td>
+                    <td>Cyan</td>
+
+                </tr>
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-j.png" height="35"/></td>
+                    <td>J</td>
+                    <td>Blanco</td>
+                    <td>Magenta</td>
+                    <td>Azul</td>
+                </tr>
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-l.png" height="35"/></td>
+                    <td>L</td>
+                    <td>Magenta</td>
+                    <td>Amarillo</td>
+                    <td>Naranja</td>
+
+                </tr>
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-O.png" height="35"/></td>
+                    <td>O</td>
+                    <td>Azul</td>
+                    <td>Cyan</td>
+                    <td>Amarillo</td>
+
+                </tr>
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-s.png" height="35"/></td>
+                    <td>S</td>
+                    <td>Verde</td>
+                    <td>Azul</td>
+                    <td>Verde</td>
+          
+                </tr>
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-t.png" height="35"/></td>
+                    <td>T</td>
+                    <td>Marrón</td>
+                    <td>Gris</td>
+                    <td>Morado</td>
+
+                </tr>
+                <tr>
+                    <!-- Imagen pieza-->
+                    <td><img src="Img/Tetris-z.png" height="35"/></td>
+                    <td>Z</td>
+                    <td>Verde</td>
+                    <td>Verde</td>
+                    <td>Rojo</td>
+                </tr>
+
+            </table>
+        <h2 id="Title4">eSports</h2>
+            <p>
+                El Classic Tetris World Championship (CTWC) es un campeonato de videojuegos, organizado por Portland Retro Gaming Expo.
+                La competición lanzada en 2010 busca determinar el mejor jugador de Tetris del mundo.
+                La competición dura dos días, con la Ronda de Clasificación durante el primer día y el evento Principal durante el segundo. Los participantes tienen permitido traer su control propio, pero éste tiene que ser un control de NES original sin modificaciones.
+                El Classic Tetris World Championship se juega con un cartucho original 8-bit de Nintendo NES. Aquellos individuos que han apoyado el evento reciben una edición limitada dorada del juego.
+            </p>
+        <hr>
+        <!--Footer-->
+        <footer>       
+            <p>Asir 1</p>
+            <p>Ángel Liste Rodeiro</p>
+
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Tetris">wikipedia</a></li>
+            </ul>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Tetris.html">Tetris</a></li>
+                <li><a href="BuscaMinas.html">Busca Minas</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
