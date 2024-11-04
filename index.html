@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Juegos Retros</title>
+    <link rel="stylesheet" href="index2.css">
 </head>
 <body>
     <h1>Juegos Retros</h1>
-    <article>
-        <a href="Tetris.html"><h2>Tetris</h2></a>
-        <p><img src="Img/Tetris_logo.png" height="175"><br/>Se basa en figuras geométricas compuestas por cuatro bloques cuadrados unidos de forma ortogonal las cuales se generan de una zona que ocupa 5x5 bloques en el área superior de la pantalla. No hay consenso en cuanto a las dimensiones para el área del juego, que varía en cada versión.Sin embargo, dos filas de más arriba están ocultas al jugador.
-            El jugador no puede impedir esta caída, pero puede decidir la rotación de la pieza (0°, 90°, 180°, 270°) y en qué lugar debe caer. Cuando una línea horizontal se completa, esa línea desaparece, todas las piezas que están por encima descienden una posición y liberan espacio de juego.
-            La caída de las piezas se acelera progresivamente. El juego acaba cuando las piezas se amontonan hasta llegar a lo más alto (3x5 bloques en el área visible), interfiriendo la caída de más piezas.
-        </p>
-    </article>
-    <article>
-        <a href="BuscaMinas.html"><h2>Busca Minas</h2></a>
-        <p><img src="Img/BuscaMinas_logo.png" height="240"><br/> Busca Minas es un juego de lógica, en el que el objetivo principal es encontrar todas las minas ocultas en un campo de celdas. Las celdas pueden contener un número que indica cuántas minas hay alrededor de ella, o una mina, en cuyo caso el jugador pierde.</p>
-    </article>
-    <hr/>
+    <div class="blockarticle">
+        <article class="articleTetris" >
+            <a href="Tetris.html"><h2>Tetris</h2></a>
+            <p class="pTetris"><img src="Img/Tetris_logo.png"><br/>El juego se basa en figuras geométricas de cuatro bloques unidos ortogonalmente, que caen desde una zona de 5x5 bloques en la parte superior de la pantalla. 
+                El jugador no puede detener la caída, pero puede rotar las piezas y elegir su posición. Cuando una línea se completa, desaparece, permitiendo que las piezas superiores desciendan. La velocidad de caída aumenta progresivamente, y el juego termina cuando las piezas se acumulan hasta la parte superior del área visible (3x5 bloques).
+            </p>
+        </article>
+        <article class="articleBuscaminas">
+            <a href="BuscaMinas.html"><h2>Busca Minas</h2></a>
+            <p><img src="Img/BuscaMinas_logo.png" height="240"><br/> Busca Minas es un juego de lógica, en el que el objetivo principal es encontrar todas las minas ocultas en un campo de celdas. Las celdas pueden contener un número que indica cuántas minas hay alrededor de ella, o una mina, en cuyo caso el jugador pierde.</p>
+        </article>
+    </div>
     <footer>
         <p>Asir 1</p>
         <p>Ángel Liste Rodeiro</p>
