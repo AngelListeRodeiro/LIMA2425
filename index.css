@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Artículos como menús desplegables */
+.blockarticle{
+    display: flex ;
+}
+article {
+    width: 80%;
+    height: 60%;
+    max-width: 260px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+article h2 {
+    background-color: #007acc;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+}
+
+article p,
+article img {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+.articleTetris img{
+    height: 120px;
+}
+
+/* Mostrar contenido al pasar el cursor sobre el <h2> */
+
+article:hover p,
+article:hover img {
+    max-height: 1000px; /* Altura suficiente para mostrar todo el contenido */
+    opacity: 1;
+    padding: 15px;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+footer{
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 100% 10px 100px;
+}
