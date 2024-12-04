@@ -1,0 +1,40 @@
+
+h1{
+    background-color: #e62300;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+ img{
+float:left;
+margin-left: 15px;
+}
+
+nav{
+    width: 25%;
+}
+nav ul {
+background-color: #f1f1f1;
+list-style-type: none;
+margin: 0 auto;
+padding: 0;
+
+}
+
+
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    background-color: cadetblue;
+    display: block;
+    width: 30;
+    
+}
+
+a:hover{
+    background-color: #1b9bff;
+    transition: 0,5s;
+}
