@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: rgb(228, 252, 192);
     color: #333;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 h1 {
@@ -20,28 +21,33 @@ article {
     width: 80%;
     height: 60%;
     max-width: 260px;
-    margin: 20px auto;
+    margin: 10px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2);
     background-color: #fff;
 }
-
+article a{
+    text-decoration: none;
+}
 article h2 {
     background-color: #007acc;
     color: #fff;
     padding: 15px;
     margin: 0;
     cursor: pointer;
+    text-align: center;
 }
 
 article p,
 article img {
+    margin: 0px;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
+    padding-left: 15px;
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 .articleTetris img{
@@ -58,8 +64,38 @@ article:hover img {
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 footer{
-    background-color: brown;
-    position: absolute;
-    bottom: 0;
-    padding: 20px 100% 10px 100px;
+    position:fixed;
+    bottom: 0px;
+    background-color: rgb(163, 156, 88);
+    margin: 0 auto;
+    position: relative;
+}
+footer p{
+    color:#ddd;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+}
+footer ul li{
+    display: block;
+    background-color:aqua;
+    padding: 10px;
+    margin: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+footer ul li:hover{
+    background-color: antiquewhite;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
 }

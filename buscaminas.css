@@ -1,10 +1,21 @@
+body{
+    font-family:roboto ;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 100vh;
+    height: 1080px;
+    min-width: 840px;
+    max-width: none;
+    margin: 0 auto;
+    background-color: rgb(228, 252, 192);
+}
 
 h1{
-    background-color: #e62300;
-    height: 100px;
-    width: 100%;
+    background-color: rgb(163, 156, 88);
     display: inline-block;
     text-align: center;
+    padding: 20px;
+    width: 90%;
 }
  img{
 float:left;
@@ -12,16 +23,21 @@ margin-left: 15px;
 }
 
 nav{
-    width: 25%;
+    background-color: rgb(163, 156, 88);
+    height: auto;
+    display: block;
+    flex-direction: column;
 }
 nav ul {
-background-color: #f1f1f1;
-list-style-type: none;
-margin: 0 auto;
-padding: 0;
-
+    padding-top: 40px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0px;
 }
-
+nav ul li{
+    margin-top: 20px;
+    padding: 10px;
+}
 
 
 nav ul li a{
@@ -30,11 +46,55 @@ nav ul li a{
     padding: 7px 13px;
     background-color: cadetblue;
     display: block;
-    width: 30;
-    
+    text-decoration: none;
 }
 
 a:hover{
     background-color: #1b9bff;
     transition: 0,5s;
+}
+footer{
+    background-color: rgb(163, 156, 88);
+    margin:0px;
+    padding-top: 1000px;
+    margin-bottom: 0px;
+    position: relative;
+    
+}
+footer p{
+    color:#ddd;
+
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+footer ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+footer ul li{
+    background-color:aqua;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+footer ul li:hover{
+    background-color: antiquewhite;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main article{
+    padding-right: 10%;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
