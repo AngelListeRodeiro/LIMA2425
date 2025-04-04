@@ -63,6 +63,14 @@ article:hover img {
     padding: 15px;
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
+
+@media (max-width:700px) {
+    div{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
 footer{
     position:fixed;
     bottom: 0px;
